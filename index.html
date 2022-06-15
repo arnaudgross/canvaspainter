@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <canvas class="layer-01" height="900" width="1000"></canvas>
+        <article class="settings">
+            <div class="colors">
+                <h2>Brush color</h2>
+                <button class="black selected"></button>
+                <button class="red"></button>
+                <button class="yellow"></button>
+                <button class="white"></button>
+                <button class="sable"></button>
+                <button class="rose"></button>
+            </div>
+            <div class="sizes">
+                <h2>Brush size</h2>
+                <div>
+                    <span id="small" class="selected"></span>
+                    <span id="medium"></span>
+                    <span id="large"></span>
+                    <span id="xlarge"></span>
+                </div>
+            </div>
+            <div>
+                <h2>Brush option</h2>
+                <button id="stroke-activate" class="stroke-toggle selected">Stroke</button>
+                <button id="fill-activate" class="fill-toggle">Fill</button>
+            </div>
+            <div>
+                <button class="undo">&larr; Undo</button>
+                <button class="redo">Redo &rarr;</button>
+            </div>
+        </article>
+        <div class="cursor-preview"></div>
+    </section>
+</body>
+
+</html>
